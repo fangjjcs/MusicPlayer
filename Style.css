@@ -1,0 +1,41 @@
+*{
+  font-family: '微軟正黑體'
+}
+
+.body, html {
+  height: 100%;
+  padding: 20px;
+}
+
+.playerBox {
+  margin-top: 50px;
+}
+
+#player:focus {
+  outline: none ;
+}
+.playerBox audio {
+  width: 30%;
+}
+
+.musicList {
+  margin-top: 50px;
+  /* border: solid #222222; */
+}
+.musicList .musicItem {
+  width: 30%;
+  height: 26px;
+  margin-top: 5px;
+  border-radius: 5px;
+  background-color: #f1f3f4;
+  cursor: pointer;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  text-align: center;
+  line-height: 26px;
+  color: #666;
+  font-size: 9px;
+}
+.musicList .musicItem:hover {
+  background-color: #ddd;
+}
