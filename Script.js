@@ -27,7 +27,7 @@ var app = new Vue({
     choose: function(event,id){
       console.log(id);
       var player = document.getElementById("player");
-      player.src="/music/"+id+".mp3";
+      player.src="./music/"+id+".mp3";
       player.load();
       player.play();
     }
