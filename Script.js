@@ -14,7 +14,8 @@ var music_list = [
   { id:12, text:"秦皇島 - 萬能青年旅店" },
   { id:13, text:"Don't invest in me - Adam Melchor" },
   { id:14, text:"Tomorrow - Avril Lavigne" },
-  { id:15, text:"Transatlanticism - Death Cab For Cuties" }
+  { id:15, text:"Transatlanticism - Death Cab For Cuties" },
+  { id:16, text:"Nobody's Fault But My Own - Beck" }
 ]
 
 var app = new Vue({
